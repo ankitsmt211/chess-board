@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: grey;
+}
+
+.row{
+    background-color: white;
+    height: 60px;
+    width: 514px;
+    margin: auto;
+    
+   
+}
+
+.col{
+   
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+
+img{
+    height: 60px;
+    width: 60px;
+}
+
+
+.odd .col:nth-child(2n){
+background-color: grey;
+}
+
+.even .col:nth-child(2n+1){
+background-color: grey;
+}
